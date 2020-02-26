@@ -1,6 +1,6 @@
 <?php
 
-include "models/Db.php";
+include "../smodels/Db.php";
 
 Db::pripoj("localhost", "root", "", "websprint2");
 

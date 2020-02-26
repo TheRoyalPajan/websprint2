@@ -25,7 +25,7 @@
 var labels = [];
 var data = [];
 
-fetch('php/getAverageTemp.php')
+fetch('http://localhost/php/api/getAverageTemp.php')
   .then((response) => {
     return response.json();
   })
